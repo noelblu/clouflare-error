@@ -1,0 +1,390 @@
+2024-01-09T15:40:45.631+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_severity=ERROR diagnostic_summary="Authentication error (10000)" tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_resource_type=cloudflare_record @module=sdk.proto diagnostic_detail="" tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=14622217-b8f7-34cd-ea8d-be6a5b5f0c85 timestamp="2024-01-09T15:40:45.631+0100"
+2024-01-09T15:40:45.631+0100 [ERROR] vertex "module._uploadtest17-com.cloudflare_record.terraform_managed_resource_d4e0c2051c7e5334caecf78c93c396bf (orphan)" error: Authentication error (10000)
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_b2a3c589c6ad4d02585d098b7e7ee92a: Refreshing state... [id=b2a3c589c6ad4d02585d098b7e7ee92a]
+2024-01-09T15:40:45.839+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_summary="Authentication error (10000)" @module=sdk.proto diagnostic_severity=ERROR tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record tf_rpc=ReadResource diagnostic_detail="" tf_proto_version=6.3 tf_req_id=1e26bbfe-824f-fcfb-a734-bdb26e7d5f4f timestamp="2024-01-09T15:40:45.839+0100"
+2024-01-09T15:40:45.840+0100 [ERROR] vertex "module._resolvednow-com.cloudflare_record.terraform_managed_resource_b7de8f896fb750a754588242b76dddad (orphan)" error: Authentication error (10000)
+module._uploadtest-com.cloudflare_record.terraform_managed_resource_cf6dbd2f879682b7fcf010d997d91f8e: Refreshing state... [id=cf6dbd2f879682b7fcf010d997d91f8e]
+2024-01-09T15:40:46.162+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @module=sdk.proto diagnostic_summary="Authentication error (10000)" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record tf_rpc=ReadResource diagnostic_detail="" diagnostic_severity=ERROR tf_proto_version=6.3 tf_req_id=aa2e4b73-d778-e294-620f-9112cb54e559 @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 timestamp="2024-01-09T15:40:46.162+0100"
+2024-01-09T15:40:46.162+0100 [ERROR] vertex "module._errorstest-com.cloudflare_record.terraform_managed_resource_083124b73134cabf245dab0c967f6682 (orphan)" error: Authentication error (10000)
+module._livemove-com.cloudflare_record.terraform_managed_resource_9c42d497a355a25f7034caa6eb6ca5cb: Refreshing state... [id=9c42d497a355a25f7034caa6eb6ca5cb]
+2024-01-09T15:40:46.355+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_summary="Authentication error (10000)" tf_rpc=ReadResource tf_resource_type=cloudflare_record @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_detail="" tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=b3fca1a7-feba-fad0-c586-b33ddad8a63a @module=sdk.proto diagnostic_severity=ERROR timestamp="2024-01-09T15:40:46.354+0100"
+2024-01-09T15:40:46.356+0100 [ERROR] vertex "module._uploadtest-com.cloudflare_record.terraform_managed_resource_57bb4ce39dc4cd51861a8bd38956e370 (orphan)" error: Authentication error (10000)
+module._import1-com.cloudflare_record.terraform_managed_resource_9446a1523895df5ccf940f4f12454ba3: Refreshing state... [id=9446a1523895df5ccf940f4f12454ba3]
+2024-01-09T15:40:46.874+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_rpc=ReadResource diagnostic_detail="" diagnostic_summary="Authentication error (10000)" tf_req_id=8b5e4f82-a3d3-1c5e-68fe-0f2f2e424626 tf_resource_type=cloudflare_record @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto diagnostic_severity=ERROR tf_proto_version=6.3 timestamp="2024-01-09T15:40:46.873+0100"
+2024-01-09T15:40:46.874+0100 [ERROR] vertex "module._resolvednow-com.cloudflare_record.terraform_managed_resource_1aeaa379a1e806892c61e786297639cf (orphan)" error: Authentication error (10000)
+module._livemove-com.cloudflare_record.terraform_managed_resource_c328f562588ad0d15e55f4f70378b0db: Refreshing state... [id=c328f562588ad0d15e55f4f70378b0db]
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_8ff7a6d92fa2a72c7c0545ecdf88ac0a: Refreshing state... [id=8ff7a6d92fa2a72c7c0545ecdf88ac0a]
+2024-01-09T15:40:48.191+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto tf_proto_version=6.3 diagnostic_detail="" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=285f388e-4627-05ad-86bc-5975ea9a4657 tf_rpc=ReadResource diagnostic_summary="Authentication error (10000)" tf_resource_type=cloudflare_record diagnostic_severity=ERROR timestamp="2024-01-09T15:40:48.191+0100"
+2024-01-09T15:40:48.191+0100 [ERROR] vertex "module._ronaldo1-com.cloudflare_record.terraform_managed_resource_dee002bfc7fa2fb69c8f534433aa09d8 (orphan)" error: Authentication error (10000)
+module._jazminetest-com.cloudflare_record.terraform_managed_resource_bde2c005068a0c2ad0d93fb30eb1d2e8: Refreshing state... [id=bde2c005068a0c2ad0d93fb30eb1d2e8]
+module._resolvednow-com.cloudflare_record.terraform_managed_resource_b696c9d33e19e683fe0272904cce4842: Refreshing state... [id=b696c9d33e19e683fe0272904cce4842]
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_f04228776068862505274f424122e078: Refreshing state... [id=f04228776068862505274f424122e078]
+2024-01-09T15:40:48.468+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_summary="Authentication error (10000)" tf_rpc=ReadResource tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record diagnostic_detail="" tf_proto_version=6.3 tf_req_id=08687381-85d1-9a44-2da0-26072dfc8cb4 @module=sdk.proto diagnostic_severity=ERROR timestamp="2024-01-09T15:40:48.467+0100"
+2024-01-09T15:40:48.468+0100 [ERROR] vertex "module._uploadtest-com.cloudflare_record.terraform_managed_resource_cf6dbd2f879682b7fcf010d997d91f8e (orphan)" error: Authentication error (10000)
+module._zoneidupdatecheck-com.cloudflare_record.terraform_managed_resource_6f74b0f35e53280421d92ceec69a6e2e: Refreshing state... [id=6f74b0f35e53280421d92ceec69a6e2e]
+module._zoneidupdatecheck-com.cloudflare_record.terraform_managed_resource_0b9683d8e34bb80f052eb85a81d0c66a: Refreshing state... [id=0b9683d8e34bb80f052eb85a81d0c66a]
+2024-01-09T15:40:48.733+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: tf_req_id=51b99ea2-d118-d069-814a-5cca02699396 @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto diagnostic_severity=ERROR diagnostic_summary="Authentication error (10000)" diagnostic_detail="" tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record tf_rpc=ReadResource timestamp="2024-01-09T15:40:48.733+0100"
+2024-01-09T15:40:48.733+0100 [ERROR] vertex "module._livemove-com.cloudflare_record.terraform_managed_resource_9c42d497a355a25f7034caa6eb6ca5cb (orphan)" error: Authentication error (10000)
+module._livemove-com.cloudflare_record.terraform_managed_resource_cea43e3a6a4773781486d8e52639157b: Refreshing state... [id=cea43e3a6a4773781486d8e52639157b]
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_80c897f0a87f5d9fb6f1a3d61e875666: Refreshing state... [id=80c897f0a87f5d9fb6f1a3d61e875666]
+2024-01-09T15:40:49.025+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_detail="" tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto diagnostic_severity=ERROR tf_req_id=73bf6540-10f6-404b-ee39-d209db1de6eb tf_proto_version=6.3 tf_resource_type=cloudflare_record diagnostic_summary="Authentication error (10000)" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare timestamp="2024-01-09T15:40:49.025+0100"
+2024-01-09T15:40:49.025+0100 [ERROR] vertex "module._import1-com.cloudflare_record.terraform_managed_resource_9446a1523895df5ccf940f4f12454ba3 (orphan)" error: Authentication error (10000)
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_5d6e54cc980128344a3a94a738cc7690: Refreshing state... [id=5d6e54cc980128344a3a94a738cc7690]
+2024-01-09T15:40:49.194+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_detail="" diagnostic_severity=ERROR tf_proto_version=6.3 tf_resource_type=cloudflare_record tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=a91fa25c-a0ef-b749-1920-a972fa43b192 tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto diagnostic_summary="Authentication error (10000)" timestamp="2024-01-09T15:40:49.192+0100"
+2024-01-09T15:40:49.194+0100 [ERROR] vertex "module._livemove-com.cloudflare_record.terraform_managed_resource_c328f562588ad0d15e55f4f70378b0db (orphan)" error: Authentication error (10000)
+module._jazminetest-com.cloudflare_record.terraform_managed_resource_005e49ff91b7af1d22a76df6d8c8c532: Refreshing state... [id=005e49ff91b7af1d22a76df6d8c8c532]
+2024-01-09T15:40:49.569+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @module=sdk.proto diagnostic_summary="Authentication error (10000)" tf_proto_version=6.3 diagnostic_detail="" diagnostic_severity=ERROR tf_req_id=e2a5a4ca-065f-6908-284c-2cd4c1a97c8a tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_resource_type=cloudflare_record tf_provider_addr=registry.terraform.io/cloudflare/cloudflare timestamp="2024-01-09T15:40:49.569+0100"
+2024-01-09T15:40:49.569+0100 [ERROR] vertex "module._resolvednow-com.cloudflare_record.terraform_managed_resource_b696c9d33e19e683fe0272904cce4842 (orphan)" error: Authentication error (10000)
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_f745aedb346367d8d60a25669febbb8a: Refreshing state... [id=f745aedb346367d8d60a25669febbb8a]
+2024-01-09T15:40:49.816+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: tf_resource_type=cloudflare_record diagnostic_summary="Authentication error (10000)" tf_proto_version=6.3 tf_req_id=07d38a7c-eff3-00c1-1849-bfe4f580bf3c @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare diagnostic_detail="" diagnostic_severity=ERROR tf_rpc=ReadResource @module=sdk.proto timestamp="2024-01-09T15:40:49.816+0100"
+2024-01-09T15:40:49.817+0100 [ERROR] vertex "module._jazminetest-com.cloudflare_record.terraform_managed_resource_bde2c005068a0c2ad0d93fb30eb1d2e8 (orphan)" error: Authentication error (10000)
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_6681113e50e9eb2b07d831ed3303eee4: Refreshing state... [id=6681113e50e9eb2b07d831ed3303eee4]
+module._uploadtest-com.cloudflare_record.terraform_managed_resource_f0fe1fc6a9f043461c774baa9da8ec27: Refreshing state... [id=f0fe1fc6a9f043461c774baa9da8ec27]
+2024-01-09T15:40:50.331+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @module=sdk.proto tf_resource_type=cloudflare_record tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare diagnostic_summary="Authentication error (10000)" tf_req_id=52973375-82cf-737c-5660-129c335840f2 @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_detail="" diagnostic_severity=ERROR tf_rpc=ReadResource timestamp="2024-01-09T15:40:50.331+0100"
+2024-01-09T15:40:50.332+0100 [ERROR] vertex "module._zoneidupdatecheck-com.cloudflare_record.terraform_managed_resource_6f74b0f35e53280421d92ceec69a6e2e (orphan)" error: Authentication error (10000)
+module._uploadtest17-com.cloudflare_record.terraform_managed_resource_c67edea774f65a3a9ac3a8cfe54e6846: Refreshing state... [id=c67edea774f65a3a9ac3a8cfe54e6846]
+2024-01-09T15:40:50.568+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record diagnostic_detail="" diagnostic_severity=ERROR diagnostic_summary="Authentication error (10000)" tf_rpc=ReadResource tf_req_id=f7590b3f-e98c-b01e-026d-986f24bc712e @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto timestamp="2024-01-09T15:40:50.567+0100"
+2024-01-09T15:40:50.568+0100 [ERROR] vertex "module._zoneidupdatecheck-com.cloudflare_record.terraform_managed_resource_0b9683d8e34bb80f052eb85a81d0c66a (orphan)" error: Authentication error (10000)
+module._blue-staging-com.cloudflare_record.terraform_managed_resource_561408b8297f3ebf8357bcb8720c390d: Refreshing state... [id=561408b8297f3ebf8357bcb8720c390d]
+module._jazminetest-com.cloudflare_record.terraform_managed_resource_31c3b5f58f5ed261a054e90d1874b5eb: Refreshing state... [id=31c3b5f58f5ed261a054e90d1874b5eb]
+2024-01-09T15:40:50.879+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: tf_proto_version=6.3 tf_rpc=ReadResource diagnostic_summary="Authentication error (10000)" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR tf_req_id=0cc585a0-55a3-5c67-a02b-f5c03cd1a8b0 tf_resource_type=cloudflare_record @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 timestamp="2024-01-09T15:40:50.878+0100"
+2024-01-09T15:40:50.880+0100 [ERROR] vertex "module._livemove-com.cloudflare_record.terraform_managed_resource_cea43e3a6a4773781486d8e52639157b (orphan)" error: Authentication error (10000)
+module._staicwp1-com.cloudflare_record.terraform_managed_resource_4bd76036ee6eab56ec2fa594f3911013: Refreshing state... [id=4bd76036ee6eab56ec2fa594f3911013]
+2024-01-09T15:40:51.858+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @module=sdk.proto diagnostic_detail="" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare diagnostic_severity=ERROR tf_proto_version=6.3 tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_req_id=6dbc5c5e-cb14-e5da-fb9f-cb5403e566c7 diagnostic_summary="Authentication error (10000)" tf_resource_type=cloudflare_record timestamp="2024-01-09T15:40:51.858+0100"
+2024-01-09T15:40:51.861+0100 [ERROR] vertex "module._jazminetest-com.cloudflare_record.terraform_managed_resource_005e49ff91b7af1d22a76df6d8c8c532 (orphan)" error: Authentication error (10000)
+module._ronaldo1-com.cloudflare_record.terraform_managed_resource_a831d008227c056c4a2dff4fe2537cc6: Refreshing state... [id=a831d008227c056c4a2dff4fe2537cc6]
+module._import1-com.cloudflare_record.terraform_managed_resource_685cd27874fa775853cdb86af00bfb21: Refreshing state... [id=685cd27874fa775853cdb86af00bfb21]
+module._uploadtest17-com.cloudflare_record.terraform_managed_resource_7c8cca4eea5cd02e74d377833888bbca: Refreshing state... [id=7c8cca4eea5cd02e74d377833888bbca]
+2024-01-09T15:40:52.348+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_severity=ERROR tf_proto_version=6.3 @module=sdk.proto tf_provider_addr=registry.terraform.io/cloudflare/cloudflare @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_detail="" tf_resource_type=cloudflare_record diagnostic_summary="Authentication error (10000)" tf_req_id=891ea1b7-34a6-4ebf-22f7-c381d4cd106f tf_rpc=ReadResource timestamp="2024-01-09T15:40:52.347+0100"
+2024-01-09T15:40:52.349+0100 [ERROR] vertex "module._uploadtest-com.cloudflare_record.terraform_managed_resource_f0fe1fc6a9f043461c774baa9da8ec27 (orphan)" error: Authentication error (10000)
+module._testzoneupdate-com.cloudflare_record.terraform_managed_resource_aa80953b39192e7ce91fd9cf03eaa675: Refreshing state... [id=aa80953b39192e7ce91fd9cf03eaa675]
+module._testzoneupdate-com.cloudflare_record.terraform_managed_resource_3976349e166593b24b895056fa2ad551: Refreshing state... [id=3976349e166593b24b895056fa2ad551]
+2024-01-09T15:40:52.538+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_severity=ERROR diagnostic_detail="" tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record diagnostic_summary="Authentication error (10000)" tf_req_id=b06fb2cd-5ee1-9d3f-83d3-c32da62bdf4a @module=sdk.proto tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 timestamp="2024-01-09T15:40:52.538+0100"
+2024-01-09T15:40:52.538+0100 [ERROR] vertex "module._uploadtest17-com.cloudflare_record.terraform_managed_resource_c67edea774f65a3a9ac3a8cfe54e6846 (orphan)" error: Authentication error (10000)
+module._testzoneupdate-com.cloudflare_record.terraform_managed_resource_f906c5b575b45a3874021d08ee46ddc9: Refreshing state... [id=f906c5b575b45a3874021d08ee46ddc9]
+module._testzoneupdate-com.cloudflare_record.terraform_managed_resource_9b080dd18f0bbfcde10db5b4dac298f7: Refreshing state... [id=9b080dd18f0bbfcde10db5b4dac298f7]
+2024-01-09T15:40:52.989+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_rpc=ReadResource @module=sdk.proto tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_proto_version=6.3 tf_req_id=c0822ab0-4c4d-b5b5-63d5-3ccabe73e33f tf_resource_type=cloudflare_record diagnostic_detail="" diagnostic_severity=ERROR diagnostic_summary="Authentication error (10000)" timestamp="2024-01-09T15:40:52.989+0100"
+2024-01-09T15:40:52.990+0100 [ERROR] vertex "module._jazminetest-com.cloudflare_record.terraform_managed_resource_31c3b5f58f5ed261a054e90d1874b5eb (orphan)" error: Authentication error (10000)
+module._testzoneupdate-com.cloudflare_record.terraform_managed_resource_0b84343da5bfef8660be3360c77d2af1: Refreshing state... [id=0b84343da5bfef8660be3360c77d2af1]
+2024-01-09T15:40:53.315+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 @module=sdk.proto diagnostic_severity=ERROR diagnostic_detail="" diagnostic_summary="Authentication error (10000)" tf_proto_version=6.3 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=43b0886d-252f-a853-0866-2c3041c05acf tf_rpc=ReadResource tf_resource_type=cloudflare_record timestamp="2024-01-09T15:40:53.315+0100"
+2024-01-09T15:40:53.316+0100 [ERROR] vertex "module._staicwp1-com.cloudflare_record.terraform_managed_resource_4bd76036ee6eab56ec2fa594f3911013 (orphan)" error: Authentication error (10000)
+module._stage-umbrella-showcase-com.cloudflare_record.terraform_managed_resource_80a636e7746b60d0eda0678d9f94ba84: Refreshing state... [id=80a636e7746b60d0eda0678d9f94ba84]
+module._stage-umbrella-showcase-com.cloudflare_record.terraform_managed_resource_ba5c6017f6b3fbc335de56285c344209: Refreshing state... [id=ba5c6017f6b3fbc335de56285c344209]
+2024-01-09T15:40:53.563+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_summary="Authentication error (10000)" @module=sdk.proto diagnostic_severity=ERROR tf_req_id=a4ffa1af-cf0b-1be0-06d1-8943a77d4656 tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_resource_type=cloudflare_record diagnostic_detail="" tf_proto_version=6.3 timestamp="2024-01-09T15:40:53.563+0100"
+2024-01-09T15:40:53.563+0100 [ERROR] vertex "module._ronaldo1-com.cloudflare_record.terraform_managed_resource_a831d008227c056c4a2dff4fe2537cc6 (orphan)" error: Authentication error (10000)
+2024-01-09T15:40:53.838+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: diagnostic_severity=ERROR @module=sdk.proto diagnostic_summary="Authentication error (10000)" tf_proto_version=6.3 @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 tf_req_id=ca5f3660-99a0-1001-7c18-33fd79362ef9 tf_resource_type=cloudflare_record tf_rpc=ReadResource diagnostic_detail="" tf_provider_addr=registry.terraform.io/cloudflare/cloudflare timestamp="2024-01-09T15:40:53.838+0100"
+2024-01-09T15:40:53.839+0100 [ERROR] vertex "module._import1-com.cloudflare_record.terraform_managed_resource_685cd27874fa775853cdb86af00bfb21 (orphan)" error: Authentication error (10000)
+2024-01-09T15:40:54.063+0100 [ERROR] provider.terraform-provider-cloudflare_v3.35.0.exe: Response contains error diagnostic: @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR tf_provider_addr=registry.terraform.io/cloudflare/cloudflare tf_req_id=f7207373-81c0-2cb3-4b17-2a48160da91d tf_rpc=ReadResource @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov6/internal/diag/diagnostics.go:55 diagnostic_summary="Authentication error (10000)" tf_proto_version=6.3 tf_resource_type=cloudflare_record timestamp="2024-01-09T15:40:54.062+0100"
+2024-01-09T15:40:54.063+0100 [ERROR] vertex "module._uploadtest17-com.cloudflare_record.terraform_managed_resource_7c8cca4eea5cd02e74d377833888bbca (orphan)" error: Authentication error (10000
+Plan: 0 to add, 0 to change, 20 to destroy.
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+╷
+│ Error: Authentication error (10000)
+│
+│
+╵
+Releasing state lock. This may take a few moments...
